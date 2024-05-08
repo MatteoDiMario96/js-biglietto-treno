@@ -4,7 +4,6 @@ let etàPassegero = parseInt(prompt("Quanti anni ha il viaggiatore? Scrivi solo 
 
 let prezzo = kmPercorsi * 0.267
 
-prezzo = Number.toFixed(2)
 
 if (etàPassegero < 18){
     prezzo = prezzo - (prezzo / 100 * 21)
@@ -12,6 +11,7 @@ if (etàPassegero < 18){
     prezzo = prezzo - (prezzo / 100 * 42)
 }
 
+prezzo = prezzo.toFixed(2)
 
 console.log(prezzo, etàPassegero)
 
