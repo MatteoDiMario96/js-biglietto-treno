@@ -6,19 +6,22 @@ va applicato uno sconto del 42% per gli over 65.
 L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo) [questo richiederà un minimo di ricerca]//
 
 
--Creare una Variabile(prezzo) che dirà il costo del viaggio.
-    -Chiedere all'utente quanti km dovrà percorrere 
+-Creare una Variabile(kmPercorsi)
+    -Chiedere all'utente quanti km dovrà percorrere. 
 
 -Creare una Variabile(etàPassegero)
     -Chiedere all'utente l'età dell passegero.
 
+-Creare una variabile(prezzo) = km * soldi
+
 - if (il passegero ha < 18 anni 21% sconto){
-    prezzo  / 100 * 21
+    (prezzo  / 100 * 21) - prezzo
 } - else if (il passegero ha più di 65 anni) {
-    prezzo  / 100 * 21
-} - else {
-    prezzo
+    (prezzo  / 100 * 42) - prezzo
 }
 
--Mostrare prezzo arrotondato di due cifre.
+-Arrotondare in due cidre decimali la Variabile prezzo 
+
+-Mostrare prezzo.
+
 
