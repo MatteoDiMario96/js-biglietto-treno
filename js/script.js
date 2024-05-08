@@ -17,8 +17,10 @@ if (etàPassegero < 18){
 };
 
 // -Arrotondare in due cidre decimali la Variabile prezzo 
-prezzo = prezzo.toFixed(2);
+prezzo = prezzo.toFixed(2) + "€";
 
 // -Mostrare prezzo.
 console.log(prezzo, etàPassegero);
+
+document.getElementById("prezzoBiglietto").innerHTML = prezzo 
 
